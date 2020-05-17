@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{RNiq:function(n,t,i){"use strict";i.r(t);var u=i("nOHt"),e=i.n(u),o=i("q1tI");t.default=function(){return Object(o.useEffect)((function(){"/"===e.a.pathname&&e.a.push("/timeline")}),[]),null}},"m0L+":function(n,t,i){(window.__NEXT_P=window.__NEXT_P||[]).push(["/",function(){return i("RNiq")}])}},[["m0L+",0,1,2]]]);
