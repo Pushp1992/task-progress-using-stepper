@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev  -p 5003",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
     "@material-ui/core": "^4.9.14",
@@ -14,5 +16,10 @@
     "next": "9.4.0",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "gh-pages": "^2.2.0",
+    "babel-plugin-transform-define": "^2.0.0"
   }
 }
