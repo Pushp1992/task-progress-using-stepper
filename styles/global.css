@@ -1,3 +1,7 @@
 li.warning a .circle {
     background-color: yellow !important;
 }
+
+a :hover {
+    cursor: default;
+}
