@@ -14,6 +14,7 @@ const styles = {
     desc: {
         marginTop: -10,
         paddingLeft: 30,
+        fontSize: 14,
         color: 'rgba(0,0,0,0.38)'
     },
     cardWidth: {
